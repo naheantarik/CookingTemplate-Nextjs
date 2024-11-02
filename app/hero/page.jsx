@@ -4,8 +4,8 @@ import ChickenImage from '../../public/assets/image/chickenimage.png'
 
 const Hero = () => {
   return (
-    <section className="bg-[#E7FAFE]  rounded-5xl h-[640px] mx-[80px]">
-      <div className="flex flex-col md:flex-row items-center gap-8">
+    <section className="  rounded-5xl h-auto mx-[80px]">
+      <div className="bg-[#E7FAFE] rounded-3xl flex flex-col md:flex-row items-center gap-8">
 
         {/* 1st Section */}
 
