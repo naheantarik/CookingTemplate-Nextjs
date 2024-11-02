@@ -1,41 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import ChickenImage from '../../public/assets/image/chickenimage.png'
+import Badge from '../../public/assets/image/Badge.png'
+import Frame from '../../public/assets/image/Frame.png'
+import RecipesPaper from '../../public/assets/image/recipespaper.svg'
 
 const Hero = () => {
   return (
-    <section className="  rounded-5xl h-auto mx-[80px]">
-      <div className="bg-[#E7FAFE] rounded-3xl flex flex-col md:flex-row items-center gap-8">
+    <section className="  rounded-5xl h-auto mx-auto max-w-[1280px]">
+      <div className="bg-[#E7FAFE] rounded-3xl flex flex-col md:flex-row gap-8 relative min-h-[640px]">
 
         {/* 1st Section */}
 
-        <div className="flex-1 pl-[50px]">
-          <div className="inline-flex justify-center items-center rounded-full bg-white text-sm font-semibold text-black text-[14px] px-8 py-5 mb-[32px] mt-[50px] ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="mr-2 h-4 w-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 3c-3.3 0-6 2.7-6 6 0 .7.7 1.3 1.3 1.3H16.7c.7 0 1.3-.7 1.3-1.3 0-3.3-2.7-6-6-6z"
-              />
-            </svg>
+        <div className="p-[50px] flex flex-col justify-between min-h-full w-1/2">
+          <div>
+          <div className="inline-flex gap-[13px] justify-center items-center rounded-full bg-white text-sm font-semibold text-black text-[14px] px-8 py-5 mb-[32px]">
+           <img src={RecipesPaper .src} alt="" />
            Hot Recipes
           </div>
 
           {/* End !st Section */}
 
-          <h1 className="text-[64px] font-semibold text-black mb-[24px]">Spicy delicious chicken wings</h1>
+          <h1 className="text-[64px] leading-[77px] font-semibold text-black mb-[24px]">Spicy delicious chicken wings</h1>
           <p className="text-gray-600 font-normal text-[16px] leading-[28px] mb-[30px]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
           </p>
-
 
           <div className="flex items-center space-x-[24px]"> 
             <div className="inline-flex justify-center items-center text-black text-opacity-[60%] bg-black bg-opacity-5 rounded-full w-[139px] h-[40px]">
@@ -57,11 +47,12 @@ const Hero = () => {
             </div>
             
          </div>
+          </div>
 
         
-          <div className="flex items-center mt-[104px]">
+          <div className="flex items-center">
             <img
-              src="/placeholder.svg?height=40&width=40"
+              src={Frame .src}
               alt="John Smith"
               className="mr-3 rounded-full"
               width={40}
@@ -73,12 +64,15 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1">
+        <div className="w-1/2 min-h-full relative">
           <img
             src={ChickenImage .src}
             alt="Delicious Chicken Wings"
             className="rounded-3xl w-full h-full"
           />
+          <div>
+            <img className='absolute top-[50px] left-[-50px]' src={Badge .src} alt="" />
+          </div>
         </div>
       </div>
     </section>
