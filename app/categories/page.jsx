@@ -2,6 +2,16 @@ import React from 'react';
 import CategoriesCard from '../components/Categories/categoriesCardComponent';
 import BreakfastImg from '../../public/assets/image/breakfast.png'
 import BreakfastShadowImg from '../../public/assets/image/breakfast-shadow.png'
+import VeganImg from '../../public/assets/image/vegan.png'
+import VeganShadowImg from '../../public/assets/image/vegan-shaddow.png'
+import MeatImg from '../../public/assets/image/meat.png'
+import MeatShadowImg from '../../public/assets/image/meat-sw.png'
+import DessertImg from '../../public/assets/image/dessert.png'
+import DessertShadowImg from '../../public/assets/image/dessert-sw.png'
+import LunchImg from '../../public/assets/image/lunch.png'
+import LunchShadowImg from '../../public/assets/image/lunch-sw.png'
+import ChocolateImg from '../../public/assets/image/chocolate.png'
+import ChocolateShadowImg from '../../public/assets/image/chocolate-sw.png'
 
 
 const Categories = () => {
@@ -17,42 +27,42 @@ const Categories = () => {
         {
             id: '02',
             title: 'vegan',
-            img: '....',
-            shadowImg: '...',
+            img: VeganImg.src,
+            shadowImg: VeganShadowImg.src,
             bgColor: '#ddd'
         },
         {
             id: '03',
             title: 'meat',
-            img: '....',
-            shadowImg: '...',
+            img: MeatImg.src,
+            shadowImg: MeatShadowImg.src,
             bgColor: '#ddd'
         },
         {
             id: '04',
             title: 'dessert',
-            img: '....',
-            shadowImg: '...',
+            img: DessertImg.src,
+            shadowImg: DessertShadowImg.src,
             bgColor: '#ddd'
         },
         {
             id: '05',
             title: 'lunch',
-            img: '....',
-            shadowImg: '...',
+            img: LunchImg.src,
+            shadowImg: LunchShadowImg.src,
             bgColor: '#ddd'
         },
         {
             id: '06',
             title: 'chocolate',
-            img: '....',
-            shadowImg: '...',
+            img: ChocolateImg.src,
+            shadowImg: ChocolateShadowImg.src,
             bgColor: '#ddd'
         }
 
     ]
   return (
-    <section className="h-auto mx-auto max-w-[1280px] px-4 py-8">
+    <section className="h-auto mx-auto max-w-[1280px] px-4 py-8 mt-[160px]">
       <div>
 
         {/* title and button section */}

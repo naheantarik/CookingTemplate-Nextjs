@@ -10,7 +10,7 @@ const CategoriesCard = ({category}) => {
       <div className='w-[120px] h-[120px] -mt-[30px] relative'>
         <img
           src={category.img} 
-          alt="Vegan"
+          alt=""
           className="w-[100px] h-[100px] top-0 start-0"
         />
         <img src={category.shadowImg} alt="" className='w-[100px] h-[100px] absolute bottom-0 end-0' />
