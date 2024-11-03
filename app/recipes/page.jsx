@@ -1,5 +1,5 @@
 import React from 'react';
-import FoodCard from '../components/recipesCard/recipesCardComponent';
+import FoodCard from '../components/recipesCard/recipesCard';
 
 const RecipesPage = () => {
   return (
