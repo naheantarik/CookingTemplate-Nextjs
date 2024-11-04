@@ -1,9 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Burger from "../../../public/assets/image/burger.png";
 import IconCard from "../IconCard";
 
-const FoodCard = () => {
+const FoodCard = ({ foodmenu }) => {
   const IconBox = [
     {
       id: "01",
@@ -55,7 +54,7 @@ const FoodCard = () => {
       {/* Image Section */}
       <div className="relative p-4 pb-0">
         <img
-          src={Burger.src}
+          src={foodmenu.img}
           alt="Wagyu Beef Cheeseburger"
           className="w-full h-[250px] object-cover rounded-[16px]"
         />
@@ -68,7 +67,7 @@ const FoodCard = () => {
       {/* Text Section */}
       <div className="p-6">
         <h3 className="text-[24px] font-semibold leading-[32px] tracking-[-4%] text-black">
-          Big and Juicy Wagyu Beef Cheeseburger
+          {foodmenu.title}
         </h3>
         {/* Icon */}
         <div className="flex items-center text-black text-opacity-[60%] mt-2 space-x-[24px]">
