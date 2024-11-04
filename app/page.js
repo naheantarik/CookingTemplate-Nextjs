@@ -3,11 +3,13 @@ import HeaderTemplateComponent from "./components/HeaderTemplateComponents";
 import Hero from "./hero/page";
 import Categories from "./categories/page";
 import RecipesPage from "./recipes/page";
+import HomeCTA from "./components/HomeCTA";
 
 export default function Home() {
 	return <>
 	<Hero />
 	<Categories />
 	<RecipesPage />	
+	<HomeCTA />
 	</>;
 }
