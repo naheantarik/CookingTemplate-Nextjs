@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import FoodCard from "../components/recipesCard/recipesCard";
+import FoodCard from "../components/RecipesCard";
 import GreenBG from "../../public/assets/image/green-bg.png";
 import FoodItem from "../../public/assets/image/food-plate.png";
 import Image from "next/image";

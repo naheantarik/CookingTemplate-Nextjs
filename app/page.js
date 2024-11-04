@@ -5,6 +5,8 @@ import Categories from "./categories/page";
 import RecipesPage from "./recipes/page";
 import HomeCTA from "./components/HomeCTA";
 import InstagramFeed from "./components/InstagramFeed";
+import FoodCard from "./components/RecipesCard";
+import FoodItem from "./components/FoodItem";
 
 export default function Home() {
 	return <>
@@ -13,5 +15,6 @@ export default function Home() {
 	<RecipesPage />	
 	<HomeCTA />
 	<InstagramFeed />
+	<FoodItem />
 	</>;
 }

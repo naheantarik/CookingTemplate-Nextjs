@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import IconCard from "../IconCard";
+import IconCard from "./IconCard";
 
 const FoodCard = ({ foodmenu }) => {
   const IconBox = [

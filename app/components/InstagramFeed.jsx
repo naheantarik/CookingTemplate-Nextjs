@@ -7,9 +7,9 @@ import InstaPost4 from "../../public/assets/image/insta-4.png";
 const InstagramFeed = () => {
   return (
     <section className=" bg-gradient-to-b from-[rgba(231,249,253,0)] to-[#E7F9FD]">
-      <div className="text-center h-auto mx-auto max-w-[1280px] mt-[160px]">
+      <div className="text-center h-auto mx-auto max-w-[1280px] mt-[160px] py-[80px]">
         <div className="max-w-[840px] mx-auto">
-          <h2 className="text-[48px] font-inters font-semibold tracking-[-4%] leading-[58px]">
+          <h2 className="text-[47px] font-inters font-semibold tracking-[-4%] leading-[58px]">
             Check out @foodieland on Instagram
           </h2>
           <p className="w-full text-[16px] font-inter text-black text-opacity-[60%] leading-[28px]  mt-[24px]">
@@ -23,7 +23,7 @@ const InstagramFeed = () => {
           <img src={InstaPost3.src} alt="InstaPost" />
           <img src={InstaPost4.src} alt="InstaPost" />
         </div>
-        <div>
+        <div className="mb-[80px]">
           <a
             className="w-[229px] h-[60px] font-inter mt-[80px] inline-flex gap-[17px] items-center justify-center bg-black text-white rounded-[16px]"
             href="#"
