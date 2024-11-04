@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

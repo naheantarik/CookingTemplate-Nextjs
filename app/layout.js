@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Inter } from "next/font/google";
 import HeaderTemplateComponent from "./components/HeaderTemplateComponents";
 
 const geistSans = localFont({
@@ -12,6 +13,7 @@ const geistMono = localFont({
 	variable: "--font-geist-mono",
 	weight: "100 900",
 });
+
 
 export const metadata = {
 	title: "Create Next App",
