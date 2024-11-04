@@ -64,11 +64,11 @@ const Categories = () => {
         {/* title and button section */}
 
         <div className="flex justify-between items-center">
-          <h2 className="font-Inter text-[48px] leading-[58px] font-semibold">
+          <h2 className="font-Inter lg:text-[48px] Lg:leading-[58px] font-semibold ">
             Categories
           </h2>
           <a
-            className="w-[200px] h-[60px] bg-[#E7FAFE] text-black rounded-[16px] flex items-center justify-center font-medium hover:bg-[#D6F3FD] transition-colors duration-200"
+            className="lg:w-[200px] lg:h-[60px] bg-[#E7FAFE] text-black rounded-[16px] flex items-center justify-center font-medium hover:bg-[#D6F3FD] transition-colors duration-200"
             href="#"
           >
             View All Categories

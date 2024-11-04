@@ -4,8 +4,8 @@ import LeftImg from "../../public/assets/image/egg.png";
 
 const NewsletterSection = () => {
   return (
-    <section className="flex items-center justify-center bg-[#E7F9FD] rounded-[30px] mx-auto max-w-[1280px] h-[442px] px-8 mt-[160px] relative">
-      <div className="flex flex-col items-center text-center w-full max-w-[800px]">
+    <section className="flex items-center justify-center bg-[#E7F9FD] rounded-[60px] mx-auto max-w-[1280px] h-[442px] px-8 mt-[160px] relative">
+      <div className="flex flex-col items-center text-center w-full max-w-[800px] ">
         <h2 className="font-bold text-[36px] leading-[44px] text-black mb-4">
           Deliciousness to your inbox
         </h2>
