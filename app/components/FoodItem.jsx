@@ -57,7 +57,7 @@ const FoodItem = () => {
     <section className="h-auto mx-auto max-w-[1280px] mt-[160px] ">
       <div>
         <div className="flex gap-[153px]">
-          <h2 className="font-inter font-semibold text-[48px] tracking-[-4%] leading-[58px]">
+          <h2 className="font-Inter font-semibold text-[48px] tracking-[-4%] leading-[58px]">
             Try this delicious recipe to make your day
           </h2>
           <p className="font-inter text-[16px] leading-[28px] text-black text-opacity-[60%]">

@@ -9,7 +9,7 @@ const InstagramFeed = () => {
     <section className=" bg-gradient-to-b from-[rgba(231,249,253,0)] to-[#E7F9FD]">
       <div className="text-center h-auto mx-auto max-w-[1280px] mt-[160px] py-[80px]">
         <div className="max-w-[840px] mx-auto">
-          <h2 className="text-[47px] font-inters font-semibold tracking-[-4%] leading-[58px]">
+          <h2 className="text-[47px] font-Inter font-semibold tracking-[-4%] leading-[58px]">
             Check out @foodieland on Instagram
           </h2>
           <p className="w-full text-[16px] font-inter text-black text-opacity-[60%] leading-[28px]  mt-[24px]">
