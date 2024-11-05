@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import RightImg from "../../public/assets/image/kisspng-salad.png";
 import LeftImg from "../../public/assets/image/egg.png";

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import InstaPost1 from "../../public/assets/image/Insta-1.png";
 import InstaPost2 from "../../public/assets/image/insta-2.png";

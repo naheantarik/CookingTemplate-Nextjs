@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeaderTemplateComponent = () => {
@@ -26,19 +27,19 @@ const HeaderTemplateComponent = () => {
         </div>
         <ul className="flex justify-between gap-x-[60px] font-medium font-mono text-[16px]">
           <li>
-            <a href="#">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="#">Recipes</a>
+            <Link href="/features">Recipes</Link>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <Link href="#">Blog</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link href="#">Contact</Link>
           </li>
           <li>
-            <a href="#">About us</a>
+            <Link href="#">About us</Link>
           </li>
         </ul>
         <ul className="flex gap-x-[40px]">
