@@ -10,13 +10,15 @@ import FoodItem from "./components/FoodItem";
 import NewsletterCTA from "./components/NewsletterSection";
 
 export default function Home() {
-	return <>
-	<Hero />
-	<Categories />
-	<RecipesPage />	
-	<HomeCTA />
-	<InstagramFeed />
-	<FoodItem />
-	<NewsletterCTA />
-	</>;
+  return (
+    <>
+      <Hero />
+      <Categories />
+      <RecipesPage />
+      <HomeCTA />
+      <InstagramFeed />
+      <FoodItem />
+      <NewsletterCTA />
+    </>
+  );
 }
