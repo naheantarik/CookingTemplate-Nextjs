@@ -25,7 +25,7 @@ const HeaderTemplateComponent = () => {
             </svg>
           </a>
         </div>
-        <ul className="flex justify-between gap-x-[60px] font-medium font-mono text-[16px]">
+        <ul className="flex justify-between gap-x-[60px]  font-medium font-Inter text-[16px]">
           <li>
             <Link href="/">Home</Link>
           </li>

@@ -245,34 +245,34 @@ const Features = () => {
                 </div>
                 <div className=" flex justify-between border-b border-w-[50px] border-black border-opacity-[10%] pb-4 ">
                   <p className="text-black text-opacity-[60%] font-Inter text-[18px] font-medium leading-[22px] traking-[-4%]">
-                    Calories
+                    Total Fat
                   </p>
                   <p className="font-Inter font-medium text-[18px] traking-[-4%] leading-[22px]">
-                    219.9 kcal
+                    10.7 g
                   </p>
                 </div>
                 <div className="flex justify-between border-b border-w-[50px] border-black border-opacity-[10%] pb-4">
                   <p className="text-black text-opacity-[60%] font-Inter text-[18px] font-medium leading-[22px] traking-[-4%]">
-                    Calories
+                    Protein
                   </p>
                   <p className="font-Inter font-medium text-[18px] traking-[-4%] leading-[22px]">
-                    219.9 kcal
+                    7.9 g
                   </p>
                 </div>
                 <div className="flex justify-between border-b border-w-[50px] border-black border-opacity-[10%] pb-4">
                   <p className="text-black text-opacity-[60%] font-Inter text-[18px] font-medium leading-[22px] traking-[-4%]">
-                    Calories
+                    Carbohydrate
                   </p>
                   <p className="font-Inter font-medium text-[18px] traking-[-4%] leading-[22px]">
-                    219.9 kcal
+                    22.3 g
                   </p>
                 </div>
                 <div className="flex justify-between border-b border-w-[50px] border-black border-opacity-[10%] pb-4">
                   <p className="text-black text-opacity-[60%] font-Inter text-[18px] font-medium leading-[22px] traking-[-4%]">
-                    Calories
+                    Cholesterol
                   </p>
                   <p className="font-Inter font-medium text-[18px] traking-[-4%] leading-[22px]">
-                    219.9 kcal
+                    37.4 mg
                   </p>
                 </div>
               </div>
