@@ -14,7 +14,7 @@ const FoodItem = () => {
     {
       id: "01",
       img: BurgerImg.src,
-      title: "Big and Juicy Wagyu Beef Cheeseburger",
+      title: "Big and Juicy Wagyu Beef Cheeseburger"
     },
     {
       id: "02",
